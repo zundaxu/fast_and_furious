@@ -1,4 +1,4 @@
-# wiki_trader
+# Fast & Furious
 Directory for CAPP 30123 (Computer Science with Applications-3) Group Project
 
 # References
