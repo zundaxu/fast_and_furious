@@ -11,3 +11,4 @@ Directory for CAPP 30123 (Computer Science with Applications-3) Group Project
 7. http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/
 8. https://github.com/geoninja/Uber-Data-Analysis
 9. https://aboutdatascience.wordpress.com/2017/04/04/comprehensive-analysis-of-uber-dataset/
+10. https://automating-gis-processes.github.io/2016/Lesson1-Intro-Python-GIS.html
