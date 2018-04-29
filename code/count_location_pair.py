@@ -1,4 +1,3 @@
-import math
 import csv
 from mrjob.job import MRJob
 
