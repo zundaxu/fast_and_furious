@@ -13,3 +13,4 @@ Directory for CAPP 30123 (Computer Science with Applications-3) Group Project
 9. https://aboutdatascience.wordpress.com/2017/04/04/comprehensive-analysis-of-uber-dataset/
 10. https://automating-gis-processes.github.io/2016/Lesson1-Intro-Python-GIS.html
 11. https://geodacenter.github.io/data-and-lab/
+12. https://data.cityofnewyork.us/browse?q=NYC%20Permitted%20Event%20Information&anonymous=true&sortBy=relevance
