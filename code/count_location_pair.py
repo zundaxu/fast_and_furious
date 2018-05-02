@@ -6,9 +6,10 @@ class MRlocation(MRJob):
 	def mapper(self, _, line):
 
 		row = next(csv.reader([line]))
-		location = (row[7], row[8])
+		if len(row) > 0:
+			location = (row[7], row[8])
 
-		yield location, 1
+			yield location, 1
 
 	def combiner(self, loc, counts):
 
