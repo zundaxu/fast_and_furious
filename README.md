@@ -14,3 +14,11 @@ Directory for CAPP 30123 (Computer Science with Applications-3) Group Project
 10. https://automating-gis-processes.github.io/2016/Lesson1-Intro-Python-GIS.html
 11. https://geodacenter.github.io/data-and-lab/
 12. https://data.cityofnewyork.us/browse?q=NYC%20Permitted%20Event%20Information&anonymous=true&sortBy=relevance
+
+# De-anonymization
+1. https://en.wikipedia.org/wiki/List_of_companies_based_in_New_York_City
+2. https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_New_York_City
+3. https://tlchack2016.devpost.com
+4. https://research.neustar.biz/author/atockar/
+5. https://freedom-to-tinker.com/2017/01/04/nyc-to-collect-gps-data-on-car-service-passengers-good-intentions-gone-awry-or-something-else/
+6. https://www.nytimes.com/2014/12/30/nyregion/at-a-manhattan-soup-kitchen-piano-music-is-always-on-the-menu.html?ref=topics
