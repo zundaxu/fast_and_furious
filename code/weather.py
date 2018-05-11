@@ -2,6 +2,7 @@ from WunderWeather import weather
 import arrow
 import csv
 from datetime import date, timedelta
+from time import sleep
 
 KEY = '534fe8de0c6c00ce'
 LOCATION = 'NY/New York'
@@ -58,7 +59,13 @@ def get_weather(date):
 	return 
 
 if __name__ == '__main__':
-	date_list = get_all_dates(2016, 1, 1, 2016, 12, 31) 
+	date_list = get_all_dates(2016, 2, 1, 2016, 12, 31) 
+	num = 1
 	for date in date_list:
-		get_weather(date)
+			num += 1
+			if num % 30 == 0:
+				sleep(10)
+			get_weather(date)
+
+
 
