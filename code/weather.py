@@ -60,7 +60,7 @@ def get_weather(date):
 
 if __name__ == '__main__':
 	date_list = get_all_dates(2016, 2, 1, 2016, 12, 31) 
-	num = 1
+	num = 0
 	for date in date_list:
 			num += 1
 			if num % 30 == 0:
