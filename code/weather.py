@@ -58,9 +58,7 @@ def get_weather(date):
 	return 
 
 if __name__ == '__main__':
-	date_list = get_all_dates(2017, 1, 1, 2017, 12, 31) 
+	date_list = get_all_dates(2016, 1, 1, 2016, 12, 31) 
 	for date in date_list:
 		get_weather(date)
-
-
 
