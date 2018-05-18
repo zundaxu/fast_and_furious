@@ -58,7 +58,7 @@ if __name__ == '__main__':
 	for file in FILENAMES:
 		df_list.append(draw_one_sample(file))
 	rv = pd.concat(df_list)
-	rv.to_csv('sample_trip.csv')
+	rv.to_csv('../data/sample_trip.csv')
 
 
 
