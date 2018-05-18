@@ -48,10 +48,10 @@ def get_weather(date):
 		hour = obs['date']['hour']
 		minute = obs['date']['min']
 		visi = obs['visi']
-		rain = obs['rain']
-		snow = obs['snow']
+# 		rain = obs['rain']
+# 		snow = obs['snow']
 		conds = obs['conds']
-		data_list = [date, hour, minute, visi, rain, snow, conds]
+		data_list = [date, hour, minute, visi, conds]
 		with open('weather.csv', 'a') as f:
 			wb = csv.writer(f, delimiter = ',')
 			wb.writerow(data_list)
@@ -62,10 +62,10 @@ if __name__ == '__main__':
 	date_list = get_all_dates(2016, 2, 1, 2016, 12, 31) 
 	num = 0
 	for date in date_list:
-			num += 1
-			if num % 30 == 0:
-				sleep(10)
-			get_weather(date)
+		num += 1
+		if num % 30 == 0:
+			sleep(10)
+		get_weather(date)
 
 
 
