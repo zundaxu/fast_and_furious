@@ -19,8 +19,7 @@ COLUMNS = ['VendorID', 'tpep_pickup_datetime', 'tpep_dropoff_datetime',
 # SAMPLE_DF['end_t'] = pd.to_datetime(SAMPLE_DF['tpep_dropoff_datetime'], \
 # 									format = '%Y-%m-%d %H:%M:%S')
 # SAMPLE_DF['time_diff'] =  SAMPLE_DF['end_t'] - SAMPLE_DF['start_t']
-# SAMPLE_DF['time_diff'] = SAMPLE_DF['time_diff'].apply(lambda x: \
-# 													  x.total_seconds()/3600)
+# SAMPLE_DF['time_diff'] = SAMPLE_DF['time_diff'].apply(lambda x: x.total_seconds()/60）
 # SAMPLE_DF['speed'] = SAMPLE_DF['trip_distance']/SAMPLE_DF['time_diff']
 # SAMPLE_DF.reset_index(inplace=True)
 # SAMPLE_WEATHER = map_weather_trip.get_weather_df(SAMPLE_DF)
