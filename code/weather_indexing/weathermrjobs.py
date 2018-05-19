@@ -87,5 +87,6 @@ class MRmeans(MRJob):
 
 
 if __name__ == '__main__':
+# 	MRcount.run()
 	MRmeans.run()
 
