@@ -38,26 +38,54 @@ class MRmeans(MRJob):
 	def reducer_init(self):
 
 		self.weather_dict = {}
+		self.max = 0
+		self.min = 0
 
+
+	# def reducer(self, weather, ys):
+
+	# 	y_sum = 0
+	# 	y_ct = 0
+	# 	for val in ys:
+	# 		val = float(val)
+	# 		y_ct += 1
+	# 		y_sum += val
+
+	# 	self.weather_dict[tuple(weather)] = y_sum/y_ct
+
+	# def reducer_final(self):
+
+	# 	sort_list = sorted(self.weather_dict.items(), key=lambda t: t[1])
+	# 	for data in sort_list:
+	# 		yield data[0], data[1]
 
 	def reducer(self, weather, ys):
 
 		y_sum = 0
 		y_ct = 0
 		for val in ys:
+			print(val)
 			val = float(val)
 			y_ct += 1
 			y_sum += val
+			if val > self.max:
+				self.max = val
+			if val < self.min:
+				self.min = val
 
 		self.weather_dict[tuple(weather)] = y_sum/y_ct
 
 	def reducer_final(self):
 
-		sort_list = sorted(self.weather_dict.items(), key=lambda t: t[1])
-		for data in sort_list:
-			yield data[0], data[1]
+		# sort_list = sorted(self.weather_dict.items(), key=lambda t: t[1])
+		# for data in sort_list:
+		# 	yield data[0], data[1]
+		length = self.max - self.min
+		for key, value in self.weather_dict.items():
+			yield key, value/length
+		yield self.max, self.min
 
 
 if __name__ == '__main__':
-	MRcount.run()
+	MRmeans.run()
 
