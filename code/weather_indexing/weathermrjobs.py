@@ -1,4 +1,4 @@
-# python3 mrjobs.py --jobconf mapreduce.job.reduces=1 inputfile > outputfile
+# python3 filename --jobconf mapreduce.job.reduces=1 inputfile > outputfile
 
 import math
 import csv
