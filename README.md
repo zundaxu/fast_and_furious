@@ -22,3 +22,8 @@ Directory for CAPP 30123 (Computer Science with Applications-3) Group Project
 4. https://research.neustar.biz/author/atockar/
 5. https://freedom-to-tinker.com/2017/01/04/nyc-to-collect-gps-data-on-car-service-passengers-good-intentions-gone-awry-or-something-else/
 6. https://www.nytimes.com/2014/12/30/nyregion/at-a-manhattan-soup-kitchen-piano-music-is-always-on-the-menu.html?ref=topics
+7. https://www.timeout.com/newyork/nightlife/best-clubs-in-nyc?package_page=36167
+8. https://www.airbnb.com/things-to-do/new-york/drinks-nightlife/nightclub?lat=40.707047736469804&lng=-73.95417892239993&zoom=12
+9. https://foursquare.com/top-places/new-york-city/best-places-nightclubs
+10. https://theculturetrip.com/north-america/usa/new-york/articles/the-11-best-nightclubs-in-new-york-city/
+11. https://www.10best.com/destinations/new-york/new-york/nightlife/dance-clubs/
